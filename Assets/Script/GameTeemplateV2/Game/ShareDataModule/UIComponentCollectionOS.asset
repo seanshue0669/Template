@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b3708c77fae0042bb74001488b5333, type: 3}
+  m_Name: UIComponentCollectionOS
+  m_EditorClassIdentifier: 
+  uiComponents:
+  - Key: GameStatusText
+    Type: 1
+    ButtonComponent: {fileID: 0}
+    TextComponent: {fileID: 6774463932431401825, guid: b5c6f7196fc4219469092e3d9915031d,
+      type: 3}
+    InputFieldComponent: {fileID: 0}
+  - Key: BetInputField
+    Type: 2
+    ButtonComponent: {fileID: 0}
+    TextComponent: {fileID: 0}
+    InputFieldComponent: {fileID: 8071063168747366292, guid: faf3760832c2c304b99e00d61c2334f3,
+      type: 3}
+  - Key: ConfirmButton
+    Type: 0
+    ButtonComponent: {fileID: 2508742901854878874, guid: 062912bf9bce13045b1f7a3e5bb3c78d,
+      type: 3}
+    TextComponent: {fileID: 0}
+    InputFieldComponent: {fileID: 0}
